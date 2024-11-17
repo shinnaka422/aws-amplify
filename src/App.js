@@ -6,7 +6,7 @@ function App() {
 
   useEffect(() => {
     // LIFF初期化
-    liff.init({ liffId: 'YOUR_LIFF_ID' }).then(() => {
+    liff.init({ liffId: '2006575632-lkbPBVBw' }).then(() => {
       if (liff.isLoggedIn()) {
         // ログインしている場合、ユーザーIDを取得
         liff.getProfile().then(profile => {
